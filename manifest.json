@@ -1,0 +1,16 @@
+{
+  "name": "Trenton Kress - Software Engineer",
+  "short_name": "Trenton Kress",
+  "description": "Personal portfolio of Trenton Kress, Software Engineer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}
