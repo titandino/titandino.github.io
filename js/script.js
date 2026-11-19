@@ -295,7 +295,6 @@ function buildPalette() {
   const dialog = document.getElementById('palette');
   const input = document.getElementById('palette-input');
   const list = document.getElementById('palette-list');
-  const email = 'me@trentonkress.com';
   const open = href => () => window.open(href, '_blank', 'noopener');
   const section = id => () => goTo(id);
 
@@ -311,8 +310,6 @@ function buildPalette() {
     ['Résumé (PDF)', 'Open', open('https://drive.google.com/file/d/19GOUde92zU4j8xA2kPkXCQIMkXFKGWsH/view?usp=sharing')],
     ['Darkan', 'Open', open('https://darkan.org')],
     ['Play Asteroids', 'Open', () => location.assign('/asteroids/')],
-    ['Copy email address', 'Copy', () => navigator.clipboard?.writeText(email)],
-    ['Write an email', 'Mail', () => location.assign(`mailto:${email}`)],
     ['Print this page as a résumé', 'Print', () => setTimeout(() => print(), 150)]
   ];
 
